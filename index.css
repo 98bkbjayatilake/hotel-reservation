@@ -14,9 +14,9 @@ padding:0;
 list-style:none;
 }
 #menu{
-width: 900px;
+width: 1350px;
 height:45px;
-margin:5px auto;
+
 background-color:#5B5857 ;
 border-radius:1px;
 }
@@ -33,11 +33,15 @@ clear: both;
 #menu li{
 float: left;
 box-shadow: 1px 0 0 #444;
+padding-left:40px;
 position: relative;
+
 }
 #menu a{
 float: left;
 padding: 12px 28.5px;
+padding-left:20px;
+margin-left:20px;
 text-transformation: uppercase;
 font-family: Baloo;
 text-decoration: none;
