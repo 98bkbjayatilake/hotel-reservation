@@ -1,0 +1,29 @@
+#maps{
+	position: absolute;
+
+
+  left: 50%;
+
+
+  top: 100%;
+
+
+  transform: translate(-50%, -50%);
+
+
+  
+
+  
+
+}
+#more{
+	margin-right: 5%;
+	margin-left: 40%;
+	padding-top: 5%;
+
+}
+
+#mapouter
+{
+	background-image:5434c2a82c14d398801d7fed387fb286.jpg; 
+}
