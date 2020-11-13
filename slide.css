@@ -1,0 +1,211 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+
+.slideshow-container {
+  max-width: 1500px;
+  max-height: 1500px;
+  position: relative;
+  margin-left: 5%;
+  margin-top: 5%;
+
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  margin-left: 10px;
+  margin-right: -275px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+.dota{
+  margin-left: 250px;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.two{
+  background: black;
+  margin-left: 50px;
+  margin-right: -300px;
+  height: 500px;
+  margin-top: 42px;
+  
+}
+
+.in1{
+  background-color: black;
+  float: right;
+  width: 550px;
+  height: 500px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  
+
+}
+.in2{
+  background-color: black;
+  float: left;
+  width: 550px;
+  height: 500px;
+  padding-top: -100px;
+
+}
+.mission{
+  background-color: black;
+  width: 600px;
+  height: 500px;
+
+}
+
+.mission1{
+  background-color: black;
+  width: 600px;
+  height: 400px;
+  margin-top: 2%;
+  margin-left: 50%;
+  opacity: 50%;
+}
+.mission2{
+  background-color: black;
+  width: 600px;
+  height: 400px;
+  margin-left: 4%;
+  margin-top: -60.5%;
+  opacity: 50%;
+}
+
+.mission1 {
+  position: relative;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-left:5%;
+  padding-top: 25%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.mission1:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mission2 {
+  position: relative;
+
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-left:34%;
+  padding-top: 25%;
+}
+
+.mission2:hover .overlay {
+  opacity: 1;
+}
+
+
+
+
