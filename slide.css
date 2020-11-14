@@ -73,7 +73,7 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
-/* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -142,7 +142,7 @@ img {vertical-align: middle;}
   background-color: black;
   width: 600px;
   height: 400px;
-  margin-left: 4%;
+  margin-left: 3.7%;
   margin-top: -60.5%;
   opacity: 50%;
 }
