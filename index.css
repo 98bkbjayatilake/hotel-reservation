@@ -121,4 +121,31 @@ border-right-color:#fff;
 border-bottom-color:transparent;
 }
 
+.form1{
+float: right;
+width: 400px;
+height: 300px;
+padding-top: 20px;
+background-color: black;
+margin-left: 20%;
+}
 
+.login{
+	width: 100px;
+	height: 30px;
+	background-color: green;
+	margin-top: 20px;
+}
+
+.final{
+	background-color: black;
+	width:600px;
+	height:300px;
+	margin-left: 50px;
+}
+
+span.psw {
+  float: right;
+  padding-right: 70%;
+  padding-top: 30px;
+}
