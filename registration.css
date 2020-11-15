@@ -1,0 +1,57 @@
+
+body
+{
+background-size: cover;
+background-image: url("registrationpic.jpg");
+background-repeat: no-repeat; 
+}
+.left
+{
+margin-left: 120px;
+margin-top: 100px;
+margin-right: -50px;
+font-size: 18px;
+
+}
+.mid{
+margin-left: 500px;
+margin-top:-279px;
+}
+.right
+{
+margin-top: -167px;
+margin-left: 769px;
+font-size: 18px;
+padding:50px;
+background-color: blue;
+color:#19D9FF; 
+}
+th{
+font-size: 14px;
+color: red;
+text-align: left;
+}
+fieldset
+{
+margin-left:0px;
+margin-right: 800px;
+border:none;
+}
+.button
+{
+background-color: green; 
+font-size: 16px;
+}
+legend
+{
+	background-color:#AAFF00;
+}
+a
+{
+	text-decoration: none;
+	color: #FFFF33;
+}
+
+
+
+
