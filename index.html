@@ -3,6 +3,19 @@
 <title>Home</title>
 <link rel="Stylesheet" type="text/css" href="index.css">
 <link rel="Stylesheet" type="text/css" href="slide.css">
+<script type="text/javascript">
+  function validate(){
+    if(document.frm1.uname.value.length==" ")
+    {
+      alert("Please Enter the Username ");
+    }
+    if(document.frm1.pass.value.length==" ")
+    {
+      alert("Please Enter the Password")
+    }
+  }
+</script>
+
 </head>
 <body bgcolor="black">
 <h1><font color="white">Sea Side Park Hotel</h1>
@@ -136,7 +149,7 @@ everlasting memories through an unmatched personalised service"</h3></div>
 </div>
 <div class="form1">
   <table>
-    <form>
+    <form name="frm1">
       <tr>
         <td align="left"><font color="White"><h1>Login</h1></font></td>
       </tr>
@@ -144,7 +157,7 @@ everlasting memories through an unmatched personalised service"</h3></div>
         <td><font color="white">Username</font></td>
       </tr>
       <tr>
-        <td><input type="text" class="uname" ></td>
+        <td><input type="text" name="uname" ></td>
       </tr>
       <tr>
         <td><font color="white">Password</font></td>
@@ -160,7 +173,7 @@ everlasting memories through an unmatched personalised service"</h3></div>
     </font></label></td>
       </tr>
       <tr>
-        <td><input type="button" class="login" value="Login"></td>
+        <td><input type="button" class="login" value="Login" name="login" onclick="validate();"></td>
         <td><span class="psw"><font color="white">Forgot <a href="#">password?</a></font></span></td>
       </tr>
       

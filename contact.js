@@ -7,18 +7,18 @@ document.getElementById("four").src="cocgood.jpg";
 
 function validate(){
 if(document.make.fname.value=="")
-alert("enter your name");
+alert("Enter Your Name");
 
 if(document.make.phone.value.length==10 && !isNaN(document.make.phone.value))
 return true;
 else 
-alert("invalid phone number");
+alert("Invalid Phone Number");
 
 var format=/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 if(!document.make.email.value.match(format))
-alert("invalid email");
+alert("Invalid Email");
 if(email=="")
-alert("enter email");
+alert("Enter Email");
 }
 
 function text(){
