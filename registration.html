@@ -1,96 +1,148 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="registration.css">
-	<script language="javascript" type="text/javascript" src="registration.js">
-    </script>
+	<link rel="stylesheet" href="registration.css">
+	<title>
+		Sea Side Park Hotel
+	</title>
 </head>
+
 <body>
-	
-<div class="left">
-<fieldset>
-<legend>JOIN US</legend>
-<form name="registrationleft">
-<table>
-	
-<tr>
-	<td> First Name</td>
-	<td><input type="text" name="firstname" class="firstname"></td>
-</tr>
-<tr>
-	<td> Last Name</td>
-	<td><input type="text" name="lastname" class="lastname"></td>
-</tr>
-<tr>
-	<td> Birth Date</td>
-	<td><input type="date" name="birthdate" class="birthdate"></td>
-</tr>
-<tr>
-	<td> Phone</td>
-	<td><input type="text" name="phone" class="phone"></td>
-</tr>
-<tr>
-	<td> Email</td>
-	<td><input type="text" name="email" class="email"></td>
-</tr>
-<tr>
-	<td> Password</td>
-	<td><input type="text"  name="password" class="password" placeholder=""></td>
-	
-</tr>
-<tr>
-	<td></td>
-	<th>your password must  be  contain <br> with 10 chracters.Also one number<br> and one symbol must be include at least</th>
-</tr>
-<tr>
-	<td> Confrim Password</td>
-	<td><input type="text" name="confrimpassword" class="confrimpassword"></td>
-</tr>
-<tr>
-	<td><input type="submit" class="button" value="Register" onclick="dovalidate();"></td>
-</tr>
-</table>
-</form>
+	<h1><font color="black">Sea Side Park Hotel</font></h1>
+<div id="container" class="container">
+<div id="header">
+<ul id="menu">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+<li><a href="">Room</a>
+<ul>
+<li><a href="#">Check Avalability</a>
+<ul>
+<li><a href="#">Booking</a></li>
+</ul>
+</li>	
+</ul>
+</li>
+<li><a href="">Hotel Reservation</a>
+<ul>
+<li><a href="#">Booking</a></li>
+</ul>
+</li>
+<li><a href="">Multiple Hotel</a>
+<ul>
+<li><a href="#">Photo Gallery</a></li>
+<li><a href="#">Hotel Facilities</a></li>
+<li><a href="map.html">Map</a></li>
+<li><a href="#">Help</a></li>
+</ul></li>
+<li><a href="">Registration</a>
+<ul>
+<li><a href="#">Login</a></li>
+</ul>
+</li>
+</ul>
+</div>
+		<!-- FORM SECTION -->
+		<div class="row">
+			<!-- SIGN UP -->
+			<div class="col align-items-center flex-col sign-up">
+				<div class="form-wrapper align-items-center">
+					<div class="form sign-up">
+						<div class="input-group">
+							<i class='bx bxs-user'></i>
+							<input type="text" placeholder="Username">
+						</div>
+						<div class="input-group">
+							<i class='bx bx-mail-send'></i>
+							<input type="email" placeholder="Email">
+						</div>
+						<div class="input-group">
+							<i class='bx bxs-lock-alt'></i>
+							<input type="password" placeholder="Password">
+						</div>
+						<div class="input-group">
+							<i class='bx bxs-lock-alt'></i>
+							<input type="password" placeholder="Confirm password">
+						</div>
+						<button>
+							Sign up
+						</button>
+						<p>
+							<span>
+								Already have an account?
+							</span>
+							<b onclick="toggle()" class="pointer">
+								Sign in here
+							</b>
+						</p>
+					</div>
+				</div>
+				
+			</div>
+			<!-- END SIGN UP -->
+			<!-- SIGN IN -->
+			<div class="col flex-col sign-in">
+				<div class="form-wrapper align-items-center">
+					<div class="form sign-in">
+						<div class="input-group">
+							<i class='bx bxs-user'></i>
+							<input type="text" placeholder="Username">
+						</div>
+						<div class="input-group">
+							<i class='bx bxs-lock-alt'></i>
+							<input type="password" placeholder="Password">
+						</div>
+						<button>
+							Sign in
+						</button>
+						<p>
+							<b>
+								Forgot password?
+							</b>
+						</p>
+						<p>
+							<span>
+								Don't have an account?
+							</span>
+							<b onclick="toggle()" class="pointer">
+								Sign up here
+							</b>
+						</p>
+					</div>
+				</div>
+			<!-- END SIGN IN -->
+		</div>
+		<!-- END FORM SECTION -->
+		<!-- CONTENT SECTION -->
+		<div class="row content-row">
+			<!-- SIGN IN CONTENT -->
+			<div class="col align-items-left flex-col">
+				<div class="text sign-in">
+					<h2>
+						Welcome back to Sea Side Park Hotel
+					</h2>
+					
+				</div>
+				
+			</div>
+			<!-- END SIGN IN CONTENT -->
+			<!-- SIGN UP CONTENT -->
+			<div class="col align-items-center flex-col">
+				<div class="text sign-up">
+					<h2>
+						Join Sea Side Park Hotel
+					</h2>
+					
+				</div>
+			</div>
+			<!-- END SIGN UP CONTENT -->
+		</div>
+		<!-- END CONTENT SECTION -->
+	</div>
 </div>
 
-<div class="mid">
-	<form name="registrationright">
-	<table>
-<tr>
-	<td>User Name</td>
-	<td><input type="text" name="username" class="username"></td>
-<tr>
-<tr>
-	<td> Address</td>
-	<td><input type="text" name="address1" class="address1"></td>
-</tr>
 
-<tr>
-	<td></td>
-	<td><input type="text" name="address2" class="address2"></td>
-</tr>
-<tr>
-	<td></td>
-	<td><input type="text" name="address3" class="address3"></td>
-</tr>
-<tr>
-	<td>Town</td>
-	<td><input type="text" name="town" class="town"></td>
-</tr>
-<tr>
-	<td>Country</td>
-	<td><input type="text" name="country" class="country"></td>
-</tr>
-</table>
-</form>
-</div>
-
-</fieldset>
-
-<div class="right">
-<p>If you are a existing  customer of our   <br>website, you should be login to our website.you click <br>the below link and then you can go to the login page</p>
-<a href="login.html">go to login page</a>
-</div>
-
+	<script src="registration.js"></script>
 </body>
+
 </html>
