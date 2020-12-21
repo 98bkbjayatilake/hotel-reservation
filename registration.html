@@ -4,6 +4,7 @@
 	<title>
 		Sea Side Park Hotel
 	</title>
+	
 </head>
 
 <body bgcolor="grey">
@@ -45,12 +46,14 @@
 		<!-- FORM SECTION -->
 		<div class="row">
 			<!-- SIGN UP -->
+			
 			<div class="col align-items-center flex-col sign-up">
 				<div class="form-wrapper align-items-center">
 					<div class="form sign-up">
 						<div class="input-group">
+							
 							<i class='bx bxs-user'></i>
-							<input type="text" placeholder="Username" >
+							<input type="text" placeholder="Username" id="uname" name="uname" >
 						</div>
 						<div class="input-group">
 							<i class='bx bx-mail-send'></i>
@@ -64,10 +67,12 @@
 							<i class='bx bxs-lock-alt'></i>
 							<input type="password" placeholder="Confirm password">
 						</div>
+					
 						<button>
 							Sign up
 						</button>
 						<p>
+
 							<span>
 								Already have an account?
 							</span>
@@ -92,7 +97,7 @@
 							<i class='bx bxs-lock-alt'></i>
 							<input type="password" placeholder="Password">
 						</div>
-						<button>
+						<button onclick="signupvali();">
 							Sign in
 						</button>
 						<p>
@@ -110,6 +115,8 @@
 						</p>
 					</div>
 				</div>
+			</div>
+
 			<!-- END SIGN IN -->
 		</div>
 		<!-- END FORM SECTION -->
@@ -143,6 +150,7 @@
 
 
 	<script src="registration.js"></script>
+	
 </body>
 
 </html>
