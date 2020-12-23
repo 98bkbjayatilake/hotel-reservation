@@ -1,8 +1,8 @@
 function change(){
-document.getElementById("four").src="OIP (5).jpg";
+document.getElementById("four").src="images/OIP (5).jpg";
 }
 function change2(){
-document.getElementById("four").src="cocgood.jpg";
+document.getElementById("four").src="images/cocgood.jpg";
 }
 
 function validate(){
