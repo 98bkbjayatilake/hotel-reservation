@@ -3,22 +3,13 @@
 <title>Home</title>
 <link rel="Stylesheet" type="text/css" href="index.css">
 <link rel="Stylesheet" type="text/css" href="slide.css">
-<script type="text/javascript">
-  function validate(){
-    if(document.frm1.uname.value.length==" ")
-    {
-      alert("Please Enter the Username ");
-    }
-    if(document.frm1.pass.value.length==" ")
-    {
-      alert("Please Enter the Password")
-    }
-  }
-</script>
-
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.22472" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/math-processor.js?v=3.3.22472" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.22472" />
 </head>
 <body bgcolor="black">
-<h1 id="change"><font color="grey">Sea Side Park Hotel</h1>
+<h1 id="change"><center><font color="grey">Sea Side Park Hotel</center></h1>
 <hr>
 <div id="container">
 <div id="header">
@@ -148,38 +139,102 @@ everlasting memories through an unmatched personalised service"</h3></div>
 </div>
 </div>
 <div class="form1">
-  <table>
-    <form name="frm1">
-      <tr>
-        <td align="left"><font color="White"><h1>Login</h1></font></td>
-      </tr>
-      <tr>
-        <td><font color="white">Username</font></td>
-      </tr>
-      <tr>
-        <td><input type="text" name="uname" ></td>
-      </tr>
-      <tr>
-        <td><font color="white">Password</font></td>
-        
-      </tr>
-      <tr>
-          <td><input type="password" name="pass"></td>
+  <script type="text/javascript" src="date.js"></script>
+<form class="jotform-form" action="https://submit.jotform.com/submit/203594699015464/" method="post" name="form_203594699015464" id="203594699015464" accept-charset="utf-8" autocomplete="on">
+  <input type="hidden" name="formID" value="203594699015464" />
+  <input type="hidden" id="JWTContainer" value="" />
+  <input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_5" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-default">
+          <div class="header-text httar htvam">
+            <h4  align="left" id="header_5" class="form-header" data-component="header">
+              CALCULATE NUMBER OF DAYS
+            </h4>
+            
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_datetime" id="id_6">
+        <label class="form-label form-label-left" id="label_6" for="month_6">
+          Check In
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_6" class="form-input jf-required">
+          <div data-wrapper-react="true" class="extended notLiteMode">
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" class="form-textbox validate[required, limitDate]" id="month_6" name="q6_checkIn6[month]" size="2" data-maxlength="2" data-age="" maxLength="2" value="12" required="" autoComplete="off" aria-labelledby="label_6 sublabel_6_month" />
+              <span class="date-separate" aria-hidden="true">
+                 -
+              </span>
+              <label class="form-sub-label" for="month_6" id="sublabel_6_month" style="min-height:13px" aria-hidden="false"> Month </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" class="currentDate form-textbox validate[required, limitDate]" id="day_6" name="q6_checkIn6[day]" size="2" data-maxlength="2" data-age="" maxLength="2" value="25" required="" autoComplete="off" aria-labelledby="label_6 sublabel_6_day" />
+              <span class="date-separate" aria-hidden="true">
+                 -
+              </span>
+              <label class="form-sub-label" for="day_6" id="sublabel_6_day" style="min-height:13px" aria-hidden="false"> Day </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" class="form-textbox validate[required, limitDate]" id="year_6" name="q6_checkIn6[year]" size="4" data-maxlength="4" data-age="" maxLength="4" value="2020" required="" autoComplete="off" aria-labelledby="label_6 sublabel_6_year" />
+              <label class="form-sub-label" for="year_6" id="sublabel_6_year" style="min-height:13px" aria-hidden="false"> Year </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <img class="showAutoCalendar newDefaultTheme-dateIcon icon-seperatedMode" alt="Pick a Date" id="input_6_pick" src="https://cdn.jotfor.ms/images/calendar.png" data-component="datetime" aria-hidden="true" data-allow-time="No" data-version="v1" />
+              <label class="form-sub-label" for="input_6_pick" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap" aria-hidden="true"> Date Picker Icon </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_datetime" id="id_7">
+        <label class="form-label form-label-left" id="label_7" for="month_7">
+          Check Out
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_7" class="form-input jf-required">
+          <div data-wrapper-react="true" class="extended notLiteMode">
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" class="form-textbox validate[required, limitDate]" id="month_7" name="q7_checkOut[month]" size="2" data-maxlength="2" data-age="" maxLength="2" value="12" required="" autoComplete="off" aria-labelledby="label_7 sublabel_7_month" />
+              <span class="date-separate" aria-hidden="true">
+                 -
+              </span>
+              <label class="form-sub-label" for="month_7" id="sublabel_7_month" style="min-height:13px" aria-hidden="false"> Month </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" class="currentDate form-textbox validate[required, limitDate]" id="day_7" name="q7_checkOut[day]" size="2" data-maxlength="2" data-age="" maxLength="2" value="25" required="" autoComplete="off" aria-labelledby="label_7 sublabel_7_day" />
+              <span class="date-separate" aria-hidden="true">
+                 -
+              </span>
+              <label class="form-sub-label" for="day_7" id="sublabel_7_day" style="min-height:13px" aria-hidden="false"> Day </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" class="form-textbox validate[required, limitDate]" id="year_7" name="q7_checkOut[year]" size="4" data-maxlength="4" data-age="" maxLength="4" value="2020" required="" autoComplete="off" aria-labelledby="label_7 sublabel_7_year" />
+              <label class="form-sub-label" for="year_7" id="sublabel_7_year" style="min-height:13px" aria-hidden="false"> Year </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <img class="showAutoCalendar newDefaultTheme-dateIcon icon-seperatedMode" alt="Pick a Date" id="input_7_pick" src="https://cdn.jotfor.ms/images/calendar.png" data-component="datetime" aria-hidden="true" data-allow-time="No" data-version="v1" />
+              <label class="form-sub-label" for="input_7_pick" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap" aria-hidden="true"> Date Picker Icon </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_calculation" id="id_8">
+        <label class="form-label form-label-left" id="label_8" for="input_8"> Number of days </label>
+        <div id="cid_8" class="form-input">
+          <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_8" name="q8_numberOf" value="0" size="10" />
+        </div>
+      </li>
       
-      </tr>
-      <tr>
-        <td><label><font color="white">
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </font></label></td>
-      </tr>
-      <tr>
-        <td><input type="button" class="login" value="Login" name="login" onclick="validate();"></td>
-        <td><span class="psw"><font color="white">Forgot <a href="#">password?</a></font></span></td>
-      </tr>
       
-
-    </form>
-  </table>
+  </div>
+</form>
+  
   
 </div>
 <div class="final">
