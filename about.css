@@ -5,6 +5,7 @@
 #header{
 	width:2950px;
 	height:50px;
+background-color:black;
 	align:left;}
 
 img{
@@ -198,7 +199,7 @@ width:80px;}
 	width:1350px;
 	height:50px;
 	align:left;
-	background-color:white;}
+	background-color:black;}
 
 #menu,#menu ul{
 margin:0;
