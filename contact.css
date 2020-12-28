@@ -190,7 +190,7 @@ color:white;
 width:200px;
 padding-left:880px;
 margin-top:-75px;}
-
+p#p4{float:left;}
 h1#change2{
 font-family:georgia;
 color:grey;
@@ -217,4 +217,5 @@ h1#change:hover{
 
 text-shadow:5px -5px blue;}
 
-
+p{color:white;
+text-align:center;}
