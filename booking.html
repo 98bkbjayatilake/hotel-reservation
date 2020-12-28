@@ -1,17 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Booking</title>
 	<link rel="stylesheet" type="text/css" href="booking.css">
-	<script type="text/javascript">
-	function cacl()
-	{
-			var nights=document.form1.nights.value;
-			var selectedValue=docment.getElementById("list1").value;
-			console.log(selectedValue);
-	}	
-
-	</script>
+	<script type="text/javascript" src="booking.js"></script>
 </head>
 <body bgcolor="#031321">
 <div id="container">
@@ -79,12 +70,12 @@
 							<input type="text" placeholder="Email" name="email">
 						</div>
 						<div class="input-group">
-					    <label>Arrival Date</label>
-							<input type="date" placeholder="Arrival Date" name="arival">
+					    
+							<input type="text" placeholder="Arrival Date(mm/dd/yyyy)" name="arival">
 						</div>
 						<div class="input-group">
-						<label>Departure Date</label>
-							<input type="date" placeholder="Depature Date" name="depature">
+						
+							<input type="text" placeholder="Depature Date(mm/dd/yyyy)" name="depature">
 						</div>
 						<div class="input-group">
 					
@@ -100,7 +91,7 @@
 						</div>
 						<div class="input-group">
 					
-							<select id="list1">
+							<select name="view">
 								<option>View Packages</option>
 								<option value="1">Rs 15,500/Night Mountain View</option>
 								<option value="2">Rs 17,500/Night Ocean View</option>
@@ -109,7 +100,7 @@
 						</div>
 						<div class="input-group">
 					
-							<select>
+							<select name="room">
 								<option>Room Packages</option>
 								<option>Rs 5,500/Single Bed Room</option>
 								<option>Rs 9,500/Double Bed Room</option>
@@ -118,7 +109,7 @@
 						</div>
 						<div class="input-group">
 					
-							<select>
+							<select name="payment">
 								<option>Payment Method</option>
 								<option>Cash</option>
 								<option>Credit Card</option>
@@ -128,14 +119,10 @@
 							</select>
 						</div>
 					
-					
-					
-					
-						<input type="submit" value="Book" class="button" >
+						<input type="submit" value="Book" class="button" onclick="validate();">
 							
 						</form>
-					<br>
-
-
+					
+						<p>
 </body>
 </html>
