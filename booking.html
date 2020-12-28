@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="booking.css">
+	<script type="text/javascript">
+	function cacl()
+	{
+			var nights=document.form1.nights.value;
+			var selectedValue=docment.getElementById("list1").value;
+			console.log(selectedValue);
+	}	
+
+	</script>
+</head>
+<body bgcolor="#031321">
+<div id="container">
+<div id="header">
+<ul id="menu">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+<li><a href="">Room</a>
+<ul>
+<li><a href="#">Check Avalability</a>
+<ul>
+<li><a href="reservation.html">Booking</a></li>
+</ul>
+</li>	
+</ul>
+</li>
+<li><a href="">Hotel Reservation</a>
+<ul>
+<li><a href="reservation.html">Booking</a></li>
+</ul>
+</li>
+<li><a href="">Multiple Hotel</a>
+<ul>
+<li><a href="gallery.html">Photo Gallery</a></li>
+<li><a href="facilities.html">Hotel Facilities</a></li>
+<li><a href="map.html">Map</a></li>
+<li><a href="help.html">Help</a></li>
+</ul></li>
+<li><a href="">Registration</a>
+<ul>
+<li><a href="registration.html">Login</a></li>
+</ul>
+</li>
+</ul>
+<h1><center>Hotel Booking Form</center></h1>
+
+<hr>
+
+<div class="row">
+			<!-- SIGN UP -->
+			
+			<div class="col align-items-center flex-col sign-up">
+				<div class="form-wrapper align-items-center">
+					<div class="form sign-up">
+						<form name="form1" method="post" action="" enctype="multipart/form-data">
+						<div class="input-group">
+
+							<input type="text" placeholder="Full Name" id="uname" name="uname" >
+						</div>
+						<div class="input-group">
+							
+							<input type="text" placeholder="Street Address" name="address">
+						</div>
+						<div class="input-group">
+							
+							<input type="text" placeholder="Street Address Line 2" name="address2">
+						</div>
+						<div class="input-group">
+					
+							<input type="text" placeholder="Phone Number" name="phone">
+						</div>
+						<div class="input-group">
+					
+							<input type="text" placeholder="Email" name="email">
+						</div>
+						<div class="input-group">
+					    <label>Arrival Date</label>
+							<input type="date" placeholder="Arrival Date" name="arival">
+						</div>
+						<div class="input-group">
+						<label>Departure Date</label>
+							<input type="date" placeholder="Depature Date" name="depature">
+						</div>
+						<div class="input-group">
+					
+							<input type="text" placeholder="Number of Adults" name="adults">
+						</div>
+						<div class="input-group">
+					
+							<input type="text" placeholder="Number of Kids (If there are any)" name="kids">
+						</div>
+						<div class="input-group">
+					
+							<input type="text" placeholder="Number of Nights at Hotel" name="nights">
+						</div>
+						<div class="input-group">
+					
+							<select id="list1">
+								<option>View Packages</option>
+								<option value="1">Rs 15,500/Night Mountain View</option>
+								<option value="2">Rs 17,500/Night Ocean View</option>
+								<option value="3">Rs 16,500/Night City View</option>
+							</select>
+						</div>
+						<div class="input-group">
+					
+							<select>
+								<option>Room Packages</option>
+								<option>Rs 5,500/Single Bed Room</option>
+								<option>Rs 9,500/Double Bed Room</option>
+								<option>Rs 15,500/Family Suit</option>
+							</select>
+						</div>
+						<div class="input-group">
+					
+							<select>
+								<option>Payment Method</option>
+								<option>Cash</option>
+								<option>Credit Card</option>
+								<option>Debit Card</option>
+								<option>Cheque</option>
+								
+							</select>
+						</div>
+					
+					
+					
+					
+						<input type="submit" value="Book" class="button" >
+							
+						</form>
+					
+						<p>
+</body>
+</html>
