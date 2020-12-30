@@ -54,10 +54,22 @@
 
  <h2 ><font color="#D462FF">HOW CAN WE HELP?</font></h2>
 <div id="null">
-<form class="example" action="http://www.google.com">
-  <input type="text" placeholder="Search.." name="search">
+<form class="example" id="form" >
+  <input type="text" placeholder="Search.." id="query" name="search">
  <button type="submit" ><i class="fa fa-search" ></i></button>
 </form>
+<script>
+const f=document.getElementById('form');
+const q=document.getElementById('query');
+const google='https://www.google.com/search?q=site%3A+';
+const site='https://www.google.com/search?ei=gGbsX4cFu5jj4Q-N3aHoDg&q=about+srilankan+hotels&oq=about+srilankan+hotels&gs_lcp=CgZwc3ktYWIQAzIJCAAQyQMQFhAeOggIABDqAhCPAToLCAAQyQMQkQIQiwM6CAgAEJECEIsDOgIIADoFCAAQsQM6CAgAELEDEIMBOgsILhCxAxDHARCjAjoICAAQyQMQkQI6BAgAEEM6AgguOgUILhCxAzoHCAAQsQMQQzoFCAAQyQM6BwgAEMkDEAo6BAgAEAo6CAgAEBYQChAeOgYIABAWEB46CQgAEMkDEA0QHjoICAAQDRAKEB46BwghEAoQoAFQlB9Ym0xgpU5oAXABeACAAf8CiAGFLZIBBjItMTYuNZgBAKABAaoBB2d3cy13aXqwAQW4AQLAAQE&sclient=psy-ab&ved=0ahUKEwiHxZr4zvXtAhU7zDgGHY1uCO0Q4dUDCA0&uact=5';
+function submitted(event){
+event.preventDefault();
+const url=google + site + '+' + q.value;
+const win=window.open(url, '_blank');
+win.focus();}
+f.addEventListener('submit',submitted);
+</script>
 </div>
 </div>
       <section>
