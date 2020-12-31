@@ -2,6 +2,32 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="avialbility.css">
+	<script type="text/javascript">
+		function vali()
+		{
+			if(document.form1.checkin.value.length==0)
+			{
+				alert("Please Enter the Checkin Date");
+			}
+			if(document.form1.checkin.value.length==0)
+			{
+				alert("Please Enter the Checkout Date");
+			}
+			if(document.form1.adults.selectedIndex==0)
+			{
+				alert("Please Select the Number of Adults");
+			}
+			if(document.form1.kids.selectedIndex==0)
+			{
+				alert("Please Select the Number of Kids");
+			}
+			if(document.form1.room.selectedIndex==0)
+			{
+				alert("Please Select the Number of Rooms");
+			}
+
+		}
+	</script>
 </head>
 <body bgcolor="#031321">
 <div id="container">
@@ -55,7 +81,7 @@
 						</div>
 						<div class="input-group">
 					<label>No Of Adults</label>
-							<select>
+							<select name="adults">
 								<option>Select No of Adults</option>
 								<option>1</option>
 								<option>2</option>
@@ -71,7 +97,7 @@
 						</div>
 						<div class="input-group">
 					<label>No Of Kids</label>
-							<select>
+							<select name="kids">
 								<option>Select No of Kids</option>
 								<option>1</option>
 								<option>2</option>
@@ -87,7 +113,7 @@
 						</div>
 						<div class="input-group">
 					<label>No Of Rooms</label>
-							<select>
+							<select name="room">
 								<option>Select No of Rooms</option>
 								<option>1</option>
 								<option>2</option>
@@ -101,7 +127,7 @@
 								<option>10</option>
 							</select>
 						</div>
-							<input type="submit" value="Search" class="button" name="search" >
+							<input type="submit" value="Search" class="button" name="search" onclick="vali()">
 							
 					</form>
 				</div>
